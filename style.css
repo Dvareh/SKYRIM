@@ -1,0 +1,91 @@
+nav {
+			    margin: 100px 0;
+			     
+			}
+			
+			
+			nav ul {
+			    padding:0;
+			    margin:0;
+			    list-style: none;
+			    position: relative;
+			    }
+			
+			
+			nav ul li {
+			    margin: 0px -7px 0 0;
+			   
+			    }
+			
+		
+			nav a {
+			    display:block;
+			    padding:0 10px;
+			    color:#FFF;
+			    font-size:20px;
+			    line-height: 60px;
+			    text-decoration:none;
+			}
+			nav li {
+			    display:block;
+			    padding:0 10px;
+			    color:#FFF;
+			    font-size:20px;
+			    line-height: 60px;
+			    text-decoration:none;
+			}
+			
+			
+			nav a:hover {
+			    background-color: #000000;
+		}
+		nav ul ul {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+			
+			
+			nav ul li:hover > ul {
+			    display:inherit;
+			}
+			
+			
+			nav ul ul li {
+			    min-width:170px;
+			    float:none;
+			   
+			    position: relative;
+			}
+			#first {
+				width: 500px;
+			}
+			nav ul ul ul {
+			    position: absolute;
+			    top:0;
+			    left:100%;
+			   }
+			   .sec {
+			   	width: 200px;
+			   		background-image: linear-gradient(156deg, rgba(0,0,0,1) 31%, rgba(23,103,15,0.9766107126444328) 62%);
+			   }
+    .Aat {
+    	background-color: #1e5201;
+    }
+    li { background-color: #b5bcbd;}
+
+    .Warrior {
+    	background-color: #6e0303;
+    }
+    .Mage { background-color: #006db5 }
+
+   .WAR {
+   		background-image: linear-gradient(156deg, rgba(156,26,26,1) 35%, rgba(103,44,15,0.9766107126444328) 66%);
+   }
+   .MAG {	background-image: linear-gradient(156deg, rgba(26,113,156,1) 37%, rgba(0,0,0,0.9766107126444328) 60%);}
+    .imp {
+    	background-color: gold;
+    }
+    body {
+    	background-image: url(index.jpeg);
+    }
